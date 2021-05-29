@@ -18,7 +18,7 @@ sudo git clone https://github.com/photonstorm/phaser-examples.git
 echo 'copy phaser to apache'
 sudo cp -R ./phaser-examples/examples/ /var/www/html/
 
-# change the owner of the www directory
+# change the owner of the www directory, this allows the files copied into it to be read by apache
 echo 'change owner to www'
 sudo chown -R www-data:www-data /var/www/*
 
