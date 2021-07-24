@@ -1,4 +1,6 @@
 .terraform
+terraform*
+.secrets
 terraform.tfvars
 mykey*
 terraform.tfstate*
